@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="S Cube Foundation logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f7fc4"/>
+      <stop offset="1" stop-color="#0b2545"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="164" height="164" rx="34" fill="url(#g)"/>
+  <!-- stylised cube / community mark -->
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M100 52 L146 78 L146 122 L100 148 L54 122 L54 78 Z"/>
+    <path d="M100 52 L100 100 M100 100 L146 78 M100 100 L54 78"/>
+  </g>
+  <circle cx="100" cy="112" r="9" fill="#f4a52a"/>
+</svg>
