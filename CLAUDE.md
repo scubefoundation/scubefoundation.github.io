@@ -76,7 +76,7 @@ packages, or a build pipeline unless the owner explicitly asks.
 ## Contact details (real — already in the site)
 
 - **Phones:** +91 81972 76461 · +91 91087 61999
-- **Email:** muralimohanjs123@gmail.com
+- **Email:** info@scubefoundation.org
 - **Location:** Dharwad, Karnataka, India
 
 ## How to preview locally

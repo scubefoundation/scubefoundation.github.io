@@ -73,7 +73,7 @@ Any static host works — no server needed:
 **v1 — Homepage, with real assets.**
 - ✅ Real logo in header + as favicon (`assets/logo/logo.png`)
 - ✅ Real S Cube Foundation event photos in hero, About, and all 5 Featured Initiatives
-- ✅ Real contact details: phones +91 81972 76461 / +91 91087 61999, email muralimohanjs123@gmail.com
+- ✅ Real contact details: phones +91 81972 76461 / +91 91087 61999, email info@scubefoundation.org
 - ⏳ Still to confirm: full street **address** (currently "Dharwad, Karnataka, India") and the exact
   **Google Map pin**; **social media links** (currently `#`); a transparent-background logo for the
   footer.

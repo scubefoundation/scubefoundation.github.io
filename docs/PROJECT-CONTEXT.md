@@ -45,7 +45,7 @@ Real assets used:
 - All 14 original photos preserved in `assets/images/gallery/` (named p1–p14) for future pages.
 
 Real contact details wired in: phones +91 81972 76461 / +91 91087 61999, email
-muralimohanjs123@gmail.com.
+info@scubefoundation.org.
 
 ## Deployment
 
