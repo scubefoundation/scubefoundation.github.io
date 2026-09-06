@@ -122,5 +122,58 @@
       }
     })();
 
+    /* ---------- Founder's message read more/less ---------- */
+    (function founderMessage() {
+      var body = document.getElementById("founderBody");
+      var toggle = document.getElementById("founderToggle");
+      if (!body || !toggle) return;
+
+      toggle.addEventListener("click", function () {
+        var expanded = body.classList.toggle("is-expanded");
+        toggle.textContent = expanded ? "Show Less ↑" : "Read Full Message ↓";
+        toggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+      });
+    })();
+
+    /* ---------- Core values popup ---------- */
+    (function coreValues() {
+      var cards = Array.prototype.slice.call(document.querySelectorAll(".value-card"));
+      var modal = document.getElementById("valueModal");
+      if (cards.length === 0 || !modal) return;
+
+      var iconEl = document.getElementById("valueModalIcon");
+      var titleEl = document.getElementById("valueModalTitle");
+      var descEl = document.getElementById("valueModalDesc");
+      var closeBtn = document.getElementById("valueModalClose");
+      var backdrop = document.getElementById("valueModalBackdrop");
+      var lastFocused = null;
+
+      function openModal(card) {
+        lastFocused = document.activeElement;
+        var icon = card.querySelector(".value-card__icon");
+        var title = card.querySelector("h3");
+        iconEl.textContent = icon ? icon.textContent : "";
+        titleEl.textContent = title ? title.textContent : "";
+        descEl.textContent = card.getAttribute("data-desc") || "";
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+        closeBtn.focus();
+      }
+      function closeModal() {
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+        if (lastFocused && lastFocused.focus) lastFocused.focus();
+      }
+
+      cards.forEach(function (card) {
+        card.addEventListener("click", function () { openModal(card); });
+      });
+      closeBtn.addEventListener("click", closeModal);
+      backdrop.addEventListener("click", closeModal);
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && modal.classList.contains("is-open")) closeModal();
+      });
+    })();
+
   });
 })();

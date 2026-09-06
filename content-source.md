@@ -32,13 +32,15 @@ Home | About Us | Our Work | Get Involved | Contact Us
 
 ### Short introduction
 S Cube Foundation is a community-focused non-profit organization based in Dharwad, Karnataka,
-dedicated to improving lives through preventive healthcare, environmental conservation, education,
-and sustainable community development. We believe that meaningful change begins with understanding
-local needs, empowering communities, and creating practical solutions that deliver lasting impact.
+founded on a conviction drawn from years of work in medicine: health, education, opportunity, and
+human dignity are deeply connected — and lasting change means addressing them together, not one at
+a time.
 
-Through health camps, environmental initiatives, awareness programmes, school engagement, employee
-wellness campaigns, and village development projects, we strive to build healthier, cleaner, and
-more resilient communities.
+Through preventive health camps, environmental initiatives, school engagement, women's empowerment
+programmes, and sustainable village development, we work alongside communities rather than for them —
+building practical, people-centred solutions designed to outlast any single programme.
+
+**Buttons:** Explore Our Work (`#focus`) · Read Our Founder's Story (`#founder`)
 
 ### Who we are
 S Cube Foundation is committed to creating positive social impact by working closely with local
@@ -52,14 +54,13 @@ participation, we aim to develop practical solutions that continue to benefit pe
 programme is completed.
 
 ### Our Mission
-To improve the quality of life in communities by promoting preventive healthcare, environmental
-responsibility, education, and community participation through sustainable, inclusive, and impactful
-initiatives that empower people to lead healthier and more fulfilling lives.
+To empower individuals and communities by advancing healthcare, education, women's empowerment, and
+social welfare through awareness, accessible services, sustainable institutions, and compassionate
+action, creating lasting positive change for generations.
 
 ### Our Vision
-To build healthier, cleaner, and more self-reliant communities where every individual has access to
-opportunities for better health, environmental sustainability, education, and social wellbeing,
-creating a lasting positive impact for future generations.
+A world where every person has the opportunity to learn, live with dignity, enjoy good health, and
+thrive with hope and purpose.
 
 > Together, we can create healthier communities and a more sustainable future.
 
@@ -67,6 +68,48 @@ creating a lasting positive impact for future generations.
 One of our long-term flagship initiatives, **Gramodaya**, reflects this commitment by working
 alongside villages to develop sustainable solutions in healthcare, environmental conservation,
 education, women and youth empowerment, and overall community development.
+
+---
+
+## Section 3b — Founder's Message
+
+**Source:** `Founders message, vision mission objectives and core values .docx` (S Cube foundation /
+Vision mission and website folder)
+
+**Pull quote:** "The true measure of life is not what we achieve for ourselves, but what we leave
+behind for others."
+
+**Heading:** A Legacy of Hope
+
+Full message from Dr. Sushmita Shinde, Founder — see `index.html` (`#founder` section) for the
+complete text. Displayed with a "Read Full Message" expand/collapse toggle since it's long-form.
+Signed: *With gratitude, humility, and unwavering commitment, Dr. Sushmita Shinde, Founder, S Cube
+Foundation.*
+
+---
+
+## Section 3c — Our Core Values
+
+**Intro:** Eight principles shape every programme we run and every decision we make. Click a card to
+learn more.
+
+Displayed as 8 clickable cards; clicking opens a popup with the description.
+
+1. **💞 Compassion** — We serve with empathy, kindness, and respect, placing people at the heart of
+   everything we do.
+2. **🛡️ Integrity** — We uphold honesty, transparency, and ethical conduct in every action and
+   decision.
+3. **🏆 Excellence** — We pursue the highest standards of service, innovation, and impact.
+4. **🌱 Empowerment** — We enable people to realize their potential through knowledge, skills,
+   opportunities, and support.
+5. **⚖️ Equity** — We believe everyone deserves fair access to opportunities and resources, regardless
+   of their background or circumstances.
+6. **💡 Innovation** — We embrace creativity, learning, and continuous improvement to develop
+   effective and sustainable solutions.
+7. **✅ Accountability** — We take responsibility for our actions, honour our commitments, and remain
+   transparent to the communities we serve and those who support our mission.
+8. **🤝 Collaboration** — We achieve greater impact by working together with community partners,
+   volunteers, and governments.
 
 ---
 
@@ -141,7 +184,6 @@ Partners:
 - S Cube Clinic & Diagnostics
 - Schools
 - Gram Panchayats
-- BPCL (once collaboration is confirmed)
 - Other hospitals or organizations
 
 ---
