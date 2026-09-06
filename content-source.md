@@ -66,6 +66,10 @@ Our goal is not simply to address today's problem, but to help communities becom
 **Buttons (placed after all the above copy):** Explore Our Work (`#focus`) · Read Our Founder's Story
 (`#founder`)
 
+**Layout note:** All of the above (heading, intro, Why We Exist, Our Approach, buttons) sits in one
+left-hand column; the photo sits in a sticky right-hand column alongside it so the section reads as
+one continuous left-aligned block rather than separate centered chunks.
+
 ### Our Mission
 To empower individuals and communities by advancing healthcare, education, women's empowerment, and
 social welfare through awareness, accessible services, sustainable institutions, and compassionate
