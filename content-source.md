@@ -30,28 +30,41 @@ Home | About Us | Our Work | Get Involved | Contact Us
 
 ## Section 3 — Who We Are
 
+### Eyebrow
+About Us
+
+### Heading
+Building a future where every life has the opportunity to thrive.
+
 ### Short introduction
-S Cube Foundation is a community-focused non-profit organization based in Dharwad, Karnataka,
-founded on a conviction drawn from years of work in medicine: health, education, opportunity, and
-human dignity are deeply connected — and lasting change means addressing them together, not one at
-a time.
+S Cube Foundation is a people-first social impact organisation working to create healthier,
+empowered, and resilient communities.
 
-Through preventive health camps, environmental initiatives, school engagement, women's empowerment
-programmes, and sustainable village development, we work alongside communities rather than for them —
-building practical, people-centred solutions designed to outlast any single programme.
+We believe that compassion should not end with a helping hand. It should create health, opportunity,
+dignity, and independence.
 
-**Buttons:** Explore Our Work (`#focus`) · Read Our Founder's Story (`#founder`)
+### Why We Exist
+Because where you are born should never decide how far you can go.
 
-### Who we are
-S Cube Foundation is committed to creating positive social impact by working closely with local
-communities, educational institutions, healthcare professionals, government bodies, corporate
-partners, and volunteers. Our initiatives focus on prevention, awareness, and sustainable
-development rather than one-time interventions.
+- A child deserves the opportunity to learn.
+- A woman deserves the opportunity to become independent.
+- An elderly person deserves to age with dignity.
+- Every individual deserves access to healthcare.
 
-We believe that every individual deserves access to better health, a cleaner environment, quality
-awareness, and opportunities to thrive. By combining professional expertise with community
-participation, we aim to develop practical solutions that continue to benefit people long after each
-programme is completed.
+S Cube Foundation exists to turn these beliefs into action.
+
+### Our Approach
+We don't just help. We build.
+
+We work at the grassroots level to understand real community needs and develop practical,
+sustainable solutions.
+
+**Process:** Listen → Understand → Act → Empower → Sustain
+
+Our goal is not simply to address today's problem, but to help communities become stronger tomorrow.
+
+**Buttons (placed after all the above copy):** Explore Our Work (`#focus`) · Read Our Founder's Story
+(`#founder`)
 
 ### Our Mission
 To empower individuals and communities by advancing healthcare, education, women's empowerment, and
