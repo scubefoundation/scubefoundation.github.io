@@ -108,10 +108,10 @@ ul { margin: 0; padding: 0; }
 .brand__name { font-weight: 800; color: var(--navy); font-size: 1.18rem; letter-spacing: 0.2px; }
 .brand__tag { font-size: 0.72rem; color: var(--muted); font-weight: 500; }
 
-.nav { display: flex; align-items: center; gap: 6px; }
+.nav { display: flex; align-items: center; gap: 2px; }
 .nav a {
-  color: var(--ink); font-weight: 600; font-size: 0.96rem; padding: 10px 14px;
-  border-radius: 8px; transition: var(--transition);
+  color: var(--ink); font-weight: 600; font-size: 0.94rem; padding: 10px 11px;
+  border-radius: 8px; transition: var(--transition); white-space: nowrap;
 }
 .nav a:hover { color: var(--blue); background: var(--sky); }
 .nav__cta { margin-left: 10px; }
