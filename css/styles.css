@@ -343,6 +343,68 @@ ul { margin: 0; padding: 0; }
 .init-card__body p { color: var(--muted); font-size: 0.95rem; }
 .init-card__more { margin-top: auto; font-weight: 700; color: var(--blue); font-size: 0.92rem; }
 .init-card__more::after { content: " →"; }
+.init-card--gallery { cursor: pointer; }
+.init-card--gallery:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* ---------- About media as gallery trigger ---------- */
+.about__media--gallery { cursor: pointer; }
+.about__media-hint {
+  position: absolute; top: 14px; right: 14px; background: rgba(11,37,69,0.72); color: #fff;
+  font-size: 0.78rem; font-weight: 700; padding: 7px 14px; border-radius: 100px;
+  opacity: 0; transform: translateY(-4px); transition: var(--transition);
+}
+.about__media--gallery:hover .about__media-hint,
+.about__media--gallery:focus-visible .about__media-hint { opacity: 1; transform: translateY(0); }
+
+/* ==========================================================================
+   GALLERY PAGES (assessment / health camp / yoga day)
+   ========================================================================== */
+.page-hero { background: var(--navy); color: #dce8f4; padding: 64px 0 56px; }
+.page-hero .section__eyebrow { color: #fff; background: rgba(255,255,255,0.12); }
+.page-hero__title { color: #fff; font-size: clamp(1.9rem, 3.4vw, 2.6rem); margin-bottom: 16px; }
+.page-hero__lead { color: #cddcec; font-size: 1.05rem; max-width: 760px; }
+.page-hero__lead + .page-hero__lead { margin-top: -0.6em; }
+.page-hero__back { display: inline-flex; align-items: center; gap: 6px; color: #b9cde3; font-weight: 600; font-size: 0.92rem; margin-bottom: 22px; }
+.page-hero__back:hover { color: #fff; }
+.page-hero__quote {
+  margin: 28px 0 0; font-size: 1.1rem; font-style: italic; color: #fff;
+  border-left: 4px solid var(--accent); padding-left: 20px; max-width: 720px;
+}
+
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 26px; }
+.photo-grid__item {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; box-shadow: var(--shadow); transition: var(--transition);
+}
+.photo-grid__item:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+.photo-grid__item img { width: 100%; aspect-ratio: 4/3; object-fit: cover; cursor: pointer; display: block; }
+.photo-grid__item p { padding: 16px 18px; margin: 0; color: var(--muted); font-size: 0.92rem; }
+
+/* ---------- Fullscreen lightbox ---------- */
+.lightbox {
+  position: fixed; inset: 0; z-index: 500; display: grid; place-items: center; padding: 20px;
+  visibility: hidden; opacity: 0; transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+.lightbox.is-open { visibility: visible; opacity: 1; }
+.lightbox__backdrop { position: absolute; inset: 0; background: rgba(11,37,69,0.92); }
+.lightbox__img { position: relative; max-width: min(92vw, 1100px); max-height: 78vh; border-radius: 8px; box-shadow: var(--shadow-lg); }
+.lightbox__caption {
+  position: relative; color: #fff; text-align: center; max-width: min(92vw, 700px);
+  margin-top: 14px; font-size: 0.95rem;
+}
+.lightbox__close, .lightbox__arrow {
+  position: absolute; z-index: 2; background: rgba(255,255,255,0.14); color: #fff; border: 0;
+  cursor: pointer; display: grid; place-items: center; transition: var(--transition);
+}
+.lightbox__close:hover, .lightbox__arrow:hover { background: rgba(255,255,255,0.3); }
+.lightbox__close { top: 20px; right: 20px; width: 44px; height: 44px; border-radius: 50%; font-size: 1.1rem; }
+.lightbox__arrow { top: 45%; transform: translateY(-50%); width: 52px; height: 52px; border-radius: 50%; font-size: 1.8rem; line-height: 1; }
+.lightbox__arrow--prev { left: 20px; }
+.lightbox__arrow--next { right: 20px; }
+.lightbox__counter {
+  position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 2;
+  color: #fff; font-size: 0.9rem; background: rgba(255,255,255,0.14); padding: 6px 16px; border-radius: 100px;
+}
 
 /* ==========================================================================
    PARTNERS
@@ -443,6 +505,11 @@ ul { margin: 0; padding: 0; }
   .hero__arrow { display: none; }
   .about__badge { left: 0; }
   .section__head { margin-bottom: 38px; }
+  .lightbox__arrow { width: 42px; height: 42px; font-size: 1.4rem; }
+  .lightbox__arrow--prev { left: 8px; }
+  .lightbox__arrow--next { right: 8px; }
+  .lightbox__close { top: 10px; right: 10px; }
+  .photo-grid { grid-template-columns: 1fr; }
 }
 
 /* ---------- Accessibility ---------- */
