@@ -168,13 +168,13 @@ building healthier and stronger communities. Our impact continues to grow throug
 healthcare professionals, volunteers, institutions, and community members.
 
 Stats:
-- 👨‍⚕️ 300+ Lives Screened
-- 🌳 100+ Trees Planted
-- 🏥 5+ Health & Community Camps
-- 🏫 2+ Schools Engaged
-- 🎓 250+ Students Reached
-- 🤝 10+ Community Partnerships
-- 👥 50+ Volunteers & Supporters
+- 👨‍⚕️ 2600+ Lives Screened
+- 🌳 250+ Trees Planted
+- 🏥 25+ Health & Community Camps
+- 🏫 4+ Schools Engaged
+- 🎓 1000+ Students Reached
+- 🤝 20+ Community Partnerships
+- 👥 500+ Volunteers & Supporters
 
 ---
 
