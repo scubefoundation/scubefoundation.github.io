@@ -1,11 +1,12 @@
-# S Cube Foundation — Website
+# S Cube Foundation — Website Source Code
 
-Website for **S Cube Foundation**, a community-focused non-profit in Dharwad, Karnataka.
-Built as a simple, fast, professional static site — no build tools required.
+This repository holds the source code for the S Cube Foundation website — a community-focused
+non-profit in Dharwad, Karnataka. Built as a simple, fast, professional static site — no build
+tools required.
 
 > Tagline: *Serving with Purpose. Transforming Lives.*
 
-**🌐 Live site:** https://scubefoundation.github.io
+**🌐 Live site:** https://scubefoundation.org
 **Hosting:** GitHub Pages (free, global CDN, auto-HTTPS). **Cost:** ₹0.
 
 ### How to update the live site
