@@ -227,5 +227,29 @@
       });
     })();
 
+    /* ---------- "Share Your Interest" WhatsApp form ---------- */
+    (function whatsappForm() {
+      var form = document.getElementById("whatsappForm");
+      if (!form) return;
+      var WHATSAPP_NUMBER = "919108761999";
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var name = document.getElementById("wfName").value.trim();
+        var phone = document.getElementById("wfPhone").value.trim();
+        var interest = document.getElementById("wfInterest").value;
+        var message = document.getElementById("wfMessage").value.trim();
+
+        var text = "Hi S Cube Foundation, I'd like to share my interest.\n" +
+          "Name: " + name + "\n" +
+          "Phone: " + phone + "\n" +
+          "Interested in: " + interest +
+          (message ? "\nMessage: " + message : "");
+
+        var url = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(text);
+        window.open(url, "_blank");
+      });
+    })();
+
   });
 })();
