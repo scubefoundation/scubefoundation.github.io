@@ -135,6 +135,7 @@ ul { margin: 0; padding: 0; }
   background-size: cover; background-position: center;
 }
 .hero__slide.is-active { opacity: 1; }
+.hero__slide--contain { background-size: contain; background-repeat: no-repeat; background-color: var(--navy); }
 .hero__slide::after {
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(105deg, rgba(11,37,69,0.88) 0%, rgba(11,37,69,0.6) 45%, rgba(11,37,69,0.25) 100%);
